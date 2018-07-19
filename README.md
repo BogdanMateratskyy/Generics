@@ -1,1 +1,2 @@
 "# Generics" 
+This application shows an example of a parameterized class with constructors and methods, as well as initializing and exploring the behavior of objects when specifying various parameters.
