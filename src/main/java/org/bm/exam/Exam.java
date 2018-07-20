@@ -17,7 +17,7 @@ public class Exam<T extends Number> {
 		return Math.round(mark.floatValue()); //class Number method
 	}
 	
-	public boolean equalsToMark(Exam<T> obj){ // method parameter
+	public boolean equalsToMark(Exam<?> obj){ // method parameter
 		return roundMark() == obj.roundMark();
 	}
 
